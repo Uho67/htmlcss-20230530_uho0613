@@ -1,0 +1,70 @@
+<div class="accordion">
+    <div class="accordion__main-section">
+        <div class="accordion-name main-section__accordion-name">Accordion</div>
+    </div>
+    <div class="accordion-item-list">
+        <details class="accordion-item-list__item">
+            <summary class="accordion-item-title">Accordion item 1</summary>
+            <p class="accordion-item-description">Something small enough to escape casual notice.</p>
+        </details>
+        <details class="accordion-item-list__item">
+            <summary class="accordion-item-title">Accordion item 2</summary>
+            <p class="accordion-item-description">Something small enough to escape casual notice.
+                Something small enough to escape casual notice.
+                Something small enough to escape casual notice.
+                Something small enough to escape casual notice.</p>
+        </details>
+    </div>
+</div>
+
+
+<style>
+    .accordion {
+        height: 495px;
+        width: 1440px;
+        border: 1px solid black;
+        display: flex;
+    }
+    .accordion__main-section {
+        flex-grow: 0;
+        width: 480px;
+        position: relative;
+    }
+    .accordion-item-list {
+        flex-grow: 2;
+        padding: 75px 170px 75px 0;
+    }
+    .accordion-item-list__item {
+        font-size: 16px;
+        font-family: 'Inter',serif;
+        color: #495057;
+        margin-bottom: 8px;
+        border-radius: 10px;
+        border: 1px solid #ACB5BD;
+        height: 72px;
+    }
+    .accordion-item-list__item[open] {
+        height: auto;
+    }
+    .accordion-name {
+        display: inline-block;
+        width: 185px;
+        height: 46px;
+        font-family: 'Inter',serif;
+        font-size: 42px;
+    }
+    .main-section__accordion-name {
+        position: absolute;
+        left: 145px;
+        top: 85px;
+    }
+    .accordion-item-title {
+        margin: 20px;
+    }
+    .accordion-item-description {
+        margin: 20px;
+    }
+    .accordion-item-list:last-child {
+        margin-bottom: 0;
+    }
+</style>

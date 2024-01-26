@@ -1,0 +1,16 @@
+.summary {
+    display: block;
+}
+
+.summary::-webkit-details-marker {
+    display: none;
+}
+
+.summary .marker {
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+details[open] .marker {
+    transform: rotate(90deg);
+}
