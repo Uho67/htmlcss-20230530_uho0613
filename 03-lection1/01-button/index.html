@@ -1,39 +1,15 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="button.css" />
+    <title>Link CSS to HTML</title>
+</head>
 <div class="button_list">
-    <button class="button primary">primary</button>
-    <button class="button primary disabled">primary disabled</button>
-    <button class="button secondary">secondary</button>
-    <button class="button secondary disabled">secondary disabled</button>
-    <button class="button">alternate</button>
-    <button class="button disabled">alternate disabled</button>
+    <button class="button button_primary">Primary</button>
+    <button class="button button_primary" disabled>Primary disabled</button>
+    <button class="button button_secondary">Secondary</button>
+    <button class="button button_secondary" disabled>Secondary disabled</button>
+    <button class="button button_alternate">Alternate</button>
+    <button class="button button_alternate" disabled>Alternate disabled</button>
 </div>
-
-<style>
-    .button {
-        width: 189px;
-        height: 48px;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 16px;
-        border-color: #ACB5BD;
-    }
-    .button:hover {
-        border-color: #212429;
-    }
-    .primary {
-        background-color: #4263EB;
-        border: none;
-    }
-    .primary:hover {
-        background-color: #2342C0;
-    }
-    .secondary {
-        background-color: #7048E8;
-        border: none;
-    }
-    .secondary:hover {
-        background-color: #5028C6;
-    }
-    .disabled {
-        opacity: 0.5;
-    }
-</style>

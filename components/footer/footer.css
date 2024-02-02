@@ -1,0 +1,25 @@
+.footer {
+    font-family: Inter, serif;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+}
+
+.footer__title {
+    margin: auto;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.footer__content {
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+
+}

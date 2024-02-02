@@ -1,0 +1,13 @@
+.main {
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+    background: var(--blue);
+    flex-grow: 1;
+}
+
+.main__inner {
+    padding: 68px 0;
+    display: flex;
+    gap: 30px;
+}
+

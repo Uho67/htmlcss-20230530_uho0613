@@ -1,0 +1,46 @@
+@import "../../assets/css/normalize.css";
+@import "../../assets/fonts/fonts.css";
+.histogram {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 354px;
+    height: 185px;
+    border: 1px solid #ACB5BD;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: Inter;
+}
+.histogram__info {
+    font-size: 16px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.view-link {
+    color: #4263EB;
+    margin: 0;
+}
+.total-info__header {
+    margin: 0;
+    color: #212429;
+    opacity: 0.8;
+}
+.total-info__count {
+    margin: 0;
+    font-size: 20px;
+}
+.histogram__schema {
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.histogram-schema-item {
+    background: #4263EB;
+    flex-grow: 1;
+}
+

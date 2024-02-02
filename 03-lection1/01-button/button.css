@@ -1,0 +1,47 @@
+@import "../../assets/css/main.css";
+.button {
+    height: 48px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--white);
+    font-family: Roboto, serif;
+}
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button_primary {
+    color: var(--white);
+    background-color: var(--primary);
+    border: none;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.button_primary:hover {
+    background-color: #2342C0;
+}
+.button_primary:disabled {
+    opacity: 0.5;
+}
+.button_secondary {
+    background-color: var(--secondary);
+    border: none;
+}
+.button_secondary:hover {
+    background-color: #5028C6;
+}
+.button_secondary:disabled {
+    color: var(--white);
+    opacity: 0.5;
+}
+
+.button_alternate {
+    color: #ACB5BD;
+    border: 1px solid #ACB5BD
+}
+
+.button_alternate:hover {
+    color: var(--black);
+    border: 1px solid var(--black);
+}
