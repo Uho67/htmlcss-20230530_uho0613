@@ -1,0 +1,68 @@
+@import "../../assets/css/normalize.css";
+@import "../../assets/fonts/fonts.css";
+
+.calendar-wrapper {
+    width: 304px;
+    margin: 250px auto;
+}
+.calendar {
+    display: grid;
+    grid-template-rows: 24px 20px 1fr;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 30px 34px 40px;
+    row-gap: 21px;
+}
+
+.week-day {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #90A0B7;
+}
+
+.calendar__week-day {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+.calendar__header {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    margin: 0;
+}
+
+.calendar__number-days {
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 21px;
+}
+
+/*.day {*/
+/*    background: #0099ff;*/
+/*    grid-row-start: 4;*/
+/*    grid-row-end: 6;*/
+/*}*/
+
+.day {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #334D6E;
+}

@@ -1,15 +1,18 @@
 @import "../../assets/css/normalize.css";
 @import "../../assets/fonts/fonts.css";
+.container {
+    width: 354px;
+}
 .histogram {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    width: 354px;
+    min-width: 354px;
     height: 185px;
     border: 1px solid #ACB5BD;
     background: #FFFFFF;
     border-radius: 8px;
-    padding: 20px;
+    padding: 16px 24px 24px 24px;
     font-family: Inter;
 }
 .histogram__info {

@@ -1,0 +1,59 @@
+@import "../../assets/css/normalize.css";
+@import "../../assets/fonts/fonts.css";
+.container {
+    width: 579px;
+    margin: auto;
+}
+
+.skeleton {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: 192px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skeleton__badge {
+    display: flex;
+    gap: 20px;
+}
+
+.avatar-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background: #DDE2E5;
+}
+.skeleton__description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description-line-one {
+    width: 172px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.description-line-two {
+    width: 257px;
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.description-line-full {
+    height: 20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
